@@ -20,9 +20,9 @@ ratex-svg.workspace = true
 ratex-types.workspace = true
 # The SVG tree reader (usvg) used to measure the SVG ratex writes.
 resvg.workspace = true
-konoma-svg = { path = "../konoma-svg", version = "0.1.0" }
+konoma-svg = { version = "0.1.0" }
 
 [dev-dependencies]
 # The tests rasterize the SVG and count pixels.
 image.workspace = true
-konoma-test-support = { path = "../konoma-test-support" }
+konoma-test-support = { version = "0.1.0" }
